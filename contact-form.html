@@ -1,0 +1,15 @@
+<form onsubmit="return contactSubmit()">
+  <div class="mb-3">
+    <label for="InputEmail" class="form-label" autofocus>Email address</label>
+    <input type="email" class="form-control" id="InputEmail" aria-describedby="emailHelp">
+    <div id="emailHelp" class="form-text">I'll never share your email with anyone else.</div>
+  </div>
+  <div class="mb-3">
+    <label for="Textarea" class="form-label">Describe the job</label>
+    <textarea required class="form-control" id="Textarea" rows="5"></textarea>
+  </div>
+  <button type="submit" class="btn btn-primary" formmethod="post" >
+      <span class="spinner-border spinner-border-sm" hidden role="status" aria-hidden="true"></span>
+    Submit
+  </button>
+</form>

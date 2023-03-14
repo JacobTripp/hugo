@@ -1,0 +1,7 @@
+{{if eq .Params 0 "inner"}}{{.Inner}}{{else}}
+  <div>
+  \begin{equation}
+  {{ .Inner }}
+  \end{equation}
+  </div>
+{{end}}
