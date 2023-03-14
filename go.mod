@@ -1,3 +1,3 @@
-module github.com/JacobTripp/hugo/shortcodes
+module github.com/JacobTripp/hugo
 
 go 1.20
